@@ -1,0 +1,79 @@
+body {
+    font-family: "Playwrite HR Lijeva", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/blush-pink.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+h2 {
+    background-color: #ff577f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input, select, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #ff577f;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #ff2d63;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.card h3 {
+    margin: 0 0 10px;
+    color: #ff577f;
+}
+.card p {
+    margin: 5px 0;
+}
+.card button {
+    background-color: #ff2d63;
+    font-size: 14px;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
